@@ -1,0 +1,35 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #eaeaea;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    text-align: center;
+    padding: 40px;
+}
+
+.color-display {
+    width: 250px;
+    height: 250px;
+    background-color: #8e44ad; /* Initial color */
+    margin: 15px auto;
+    border: 3px solid #732d91;
+    transition: background-color 0.3s ease;
+}
+
+.color-btn {
+    padding: 12px 25px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #8e44ad;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.color-btn:hover {
+    background-color: #732d91;
+}
